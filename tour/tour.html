@@ -13,7 +13,7 @@
             background-color:white;
             width :100%;
             max-width: 640px;
-            margin:0 aute;
+            margin:0 auto;
         }
         .qui-header{
             background-color:#2bab79 ;
@@ -37,8 +37,8 @@
         .bottom{
             /* border:1px solid red ; */
             position: absolute;
-            top :385px;  
-            left: 380px;
+            top :390px;  
+            left: 460px;
             /* 按自己分辨率来 */
         }
         .face{
@@ -46,6 +46,13 @@
             border: 1px solid white;
             width: 39px;
             height:39px;
+            border-radius: 50%;
+        }
+        .secondface{
+            float:left;
+            border: 1px solid white;
+            width: 100px;
+            height:100px;
             border-radius: 50%;
         }
         .title{
@@ -57,6 +64,51 @@
             font-weight: bolder;
             line-height: 40px;
             margin-left: 70px;
+        }
+        .day{
+            position: absolute;
+            /* border:1px solid red; */
+            top: 90px;
+            right: 470px;
+            width:40px;
+            height:40px;
+            border-radius: 70%;
+            text-align:center;
+            background-color: rgb(14, 202, 108) ;
+            color :white;
+            line-height: 35px;
+        }
+        .secondday{
+            position: absolute;
+            /* border:1px solid red; */
+            top: 500px;
+            right: 470px;
+            width:40px;
+            height:40px;
+            border-radius: 70%;
+            text-align:center;
+            background-color: rgb(14, 202, 108) ;
+            color :white;
+            line-height: 35px;
+        }
+        em{
+            font-style: normal;
+            font-weight: bolder;
+        }
+        span{
+            margin-left: 30px;
+        }
+        .qui-aside{
+            position: absolute;
+            top:29px;
+            left:145px;
+            border :1px solid red;
+            width :200px;
+            height :800px;
+            /* background-color:#2d3741 ;  */
+        }
+        ul{
+            list-style: none;
         }
     </style>
 <body>
@@ -75,7 +127,55 @@
 
             <h2 class="title">我的旅游行程</h2>
         </div>
+        <p class ="day">
+            14天
+        </p>
+        <div>
+            <em>
+                城市
+            </em>
+            <span>
+                昆明 - 香格里拉 - 西藏
+            </span>
+
+        </div>
+    </section>
+
+    <section class ="plcRouteList">
+        <a href="">
+            <img src="images/华东.jpg" alt="" width="635">
+        </a>
+
+        <div class ="bottom">
+            <p class ="secondface">
+                <img src="images/touxiang.jpg" alt ="" width ="38" height="38" class ="pic">
+            </p>
+
+            <h2 class="title">我的旅游行程</h2>
+        </div>
+        <p class ="secondday">
+            15天
+        </p>
+        <div>
+            <em>
+                城市
+            </em>
+            <span>
+                北京 - 常州 - 苏州
+            </span>
+
+        </div>
     </section>
 </body>
 
+<aside class ="qui-aside">
+    <ul>
+        <li> <a herf="">首页</a></li>
+        <li> <a herf="">目的地</a></li>
+        <li> <a herf="">酒店</a></li>
+        <li> <a herf="">机票</a></li>
+        <li> <a herf="">时间</a></li>
+        <li> <a herf="">点评</a></li>
+    </ul>
+</aside>
 </html>
