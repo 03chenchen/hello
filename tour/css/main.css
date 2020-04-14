@@ -104,7 +104,7 @@ span{
     /* border :1px solid red; */
     width :200px;
     height :850px;
-    /* background-color:#2d3741 ;  */
+     background-color:#2d3741 ; 
 }
 ul{
     list-style: none;
@@ -118,7 +118,7 @@ ul{
 
 .nav-aside a{
 font-size: 16px;
-color:white;
+color:#ced1d5;
 line-height: 44px;
  padding-left: 15px;  /*情况未定 */
  text-decoration: none;
@@ -126,7 +126,7 @@ line-height: 44px;
 }
 
 .nav-aside a:hover{
-    color: rgb(77, 75, 75);
+    color:white;
     background-color: teal;
     }
 .qui-footer{
